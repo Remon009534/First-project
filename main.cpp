@@ -32,5 +32,8 @@ int main()
         break;
         default:
         cout << "Invalid number!!!"
+        break;
     }
+
+    return 0;
 }
