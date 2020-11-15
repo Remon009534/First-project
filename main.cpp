@@ -3,36 +3,14 @@ using namespace std;
 
 int main()
 {
-    int num1;
-    int num2;
-    char op;
-
-    cout << "Enter a number1: ";
-    cin >> num1;
-
-    cout << "Enter a number2: ";
-    cin >> num2;
-    
-    cout << "Enter a operator: ";
-    cin >> op;
-
-    switch (op)
+    int j, i;
+    for(int j = 0; j < 4; ++j)
     {
-        case "+":
-        cout << num1 + num2;
-        break;
-        case "-":
-        cout << num1 - num2;
-        break;
-        case "*":
-        cout << num1 * num2;
-        break;
-        case "/":
-        cout << num1 / num2;
-        break;
-        default:
-        cout << "Invalid number!!!"
-        break;
+        for(int i = 0; i <= j; ++i)
+        {
+            cout << "*";
+        }
+        cout << endl;
     }
 
     return 0;
